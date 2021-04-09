@@ -13,9 +13,4 @@ use App\Http\Controllers\ProductsController;
 |
 */
 
-// Laravel8 (New)
 Route::get('/products', [ProductsController::class, 'index']);
-Route::get('/products/about', [ProductsController::class, 'about']);
-
-// Laravel8 (Also New)
-Route::get('/products', 'App\Http\Controllers\ProductsController@index');
