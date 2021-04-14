@@ -18,7 +18,7 @@
 <!-- Every div is a grid item -->
 <div class="container-grid-4">
   <div>
-    <img src="img/icon-box.jpg" alt="">
+    <img src="{{  URL('storage/icon-box.jpg') }}" alt="">
     <h2>
       Web Design
     </h2>
@@ -28,7 +28,7 @@
   </div>
 
   <div>
-    <img src="img/icon-box.jpg" alt="">
+    <img src="{{  URL('storage/icon-box.jpg') }}" alt="">
     <h2>
       Web Development
     </h2>
@@ -38,7 +38,7 @@
   </div>
 
   <div>
-    <img src="img/icon-box.jpg" alt="">
+    <img src="{{  URL('storage/icon-box.jpg') }}" alt="">
     <h2>
       Product Design
     </h2>
@@ -48,7 +48,7 @@
   </div>
 
   <div>
-    <img src="img/icon-box.jpg" alt="">
+    <img src="{{  URL('storage/icon-box.jpg') }}" alt="">
     <h2>
       Creative Thinker
     </h2>
@@ -67,7 +67,7 @@
 <!-- Meet the team section -->
 <div class="container-grid-2">
   <div>
-    <img class="img-team" src="img/team-section-home.jpg" alt="">
+    <img class="img-team" src="{{  URL('storage/team-section-home.jpg') }}" alt="">
   </div>
   <div>
     <h2>
